@@ -1,3 +1,44 @@
+Strings in Swift: An ordered collection of characters surrounded by double quotes
+
+var stringA = "Hello there" unicode 
+
+String literals: 
+let myString = "Hello World" <--String literal 
+
+String mutability 
+Assign to constant <-- the string is immutable can't be modified. 
+
+Combining Strings: 
+
+let stringA = "Hi"
+let stringB = "there"
+let newString = stringA = stringB --> returns "Hi there" 
+
+let quote = "hello world" 
+
+Comparing Strings 
+quote.hasPrefix("H") returns boolean value true 
+
+quote.hasSuffix("rld") returns true 
+
+convert strings 
+
+let aString = "hi there" 
+
+let upper = aString.uppercased() --> "HI THERE"
+let lower = aString.lowerCased() --> "hi there"
+
+counting number of characters: 
+
+let aString = "Hi there"
+let theCount = stringA.count --> returns 8
+
+create  multi-line string literals: 
+
+let mlString = """ coffee 
+latte
+more and more wysiwyg
+
 intro to programming and its history.
 0 = off 
 1 = One 
