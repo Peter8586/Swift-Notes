@@ -1,4 +1,82 @@
+Basic loops in Swift; 
+for in loop 
+while loop 
+repeat while loop 
+
+For in loop --> repeats for a definite number of times. 
+While loop --> repeats while a condition is true. 
+Repeat while loop --> Executes loop first before evaluating the condition. 
+
+example syntax: 
+
+For-in loop over a range 
+
+for value in 1...5 
+{
+print("this is item \(value)")
+}
+
+examples of for loops in swift. 
+
+For in loops execute a block of code a given number of times. This type of loop is useful when you know the number of iterations beforehand.
+
+While and repeat while loops execute a block of code while a certain condition is true.
+
+for dice in 1...6 {
+    print("Roll a \(dice).")
+}
+
+Nested Loops; 
+ 
+
+
+Booleans and logial operators: 
+
+== equal to 5==5 
+> gretater than 3>2 
+< less than 3 < 2 
+>= greater than or equal to 4>=3 
+<= less than or equal to  4<=3 
+!= not equal to 6!= 7 
+
+Logical operators 
+
+&& AND  
+|| OR
+!  NOT 
+^ Exclusive or 5^10 (anything can be used netween 5 and 10 
+difference between comparison operators and logical operators; One let’s you compare two values, while the other can evaluate more than one condition to determine if it’s true or false.  
+
+if, if/else and else/if statements: 
+Conditional are used to check wether a condition is met 
+if statement checks is a condition and runs code if condition is true 
+
+if statement 
+
+let water = 0 
+if waterTemp == 0 {
+print("The water is freezing")
+}
+
+else statement 
+
+let waterTemp = 92 
+if waterTemp >= 100 {
+print("water boiling")
+} 
+else {
+print("not boiling")
+}
+
+
+Else/if statement lets you nest multiple if statements to test many conditions that depends on each other. 
 Strings in Swift: An ordered collection of characters surrounded by double quotes
+
+
+
+Switch Statements are conditionals that compare the value of a constant or varibe with a fixed set of values. 
+
+switch statements advantages over else if statements; 
 
 var stringA = "Hello there" unicode 
 
