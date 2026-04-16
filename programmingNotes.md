@@ -1,3 +1,55 @@
+What are optionals? means this variable might have a value..or might be nil (nothing) 
+Ex: 
+var username: String? = "Joe" String? --> could be a string or could be nil
+var username: String? = nil 
+
+Why swift yses optionals.. User didnt ener their name. API didnt return data. image failed to load. database is empty. 
+
+Force Unwrapping (!) means: I promise this is not nill - just give me the value. 
+Ex: 
+var username: String? = "Joe" 
+print(username!) --> Joe 
+!DANGER! 
+var username: String? = nil 
+print(username!) --> App crashes | only use ! when you are 100% sure its not nill. 
+
+Optional binding: If there is a value =, unwrpa it. if not, skip. 
+
+var username: String? = "Peter"
+
+if let unwrappedName = username {
+    print("Hello \(unwrappedName)")
+}
+
+if its nil 
+var username: String? = nil
+
+if let unwrappedName = username {
+    print("Hello \(unwrappedName)")
+}
+!!! Nothings happens no crash!!! 
+
+When to use what
+Situation	Use
+You are 100% sure value exists	! (rare)
+Value might be nil	if let   
+
+
+
+
+
+
+
+Nested Loops ( when they is a loop present inside the body of another loop) 
+Break is the keyword to break the flow of a loop immediately 
+ purpose of a nested loop is to include a seperate loop inside the body of another loop. 
+
+
+
+
+Using Conditions in loops; 
+
+
 Basic loops in Swift; 
 for in loop 
 while loop 
