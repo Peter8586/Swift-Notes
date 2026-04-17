@@ -1,3 +1,35 @@
+Using different types with arrays
+
+you can create a new array by adding to arrays of the same type 
+
+arrays by default are set to handle specific types 
+
+var aArray:[Int] = [1,2,3]
+var bArray:[Int] = [4,5,6]
+
+var cArray:[Int] = aArray + bArray
+
+print(cArray)
+
+
+array with mixed types 
+
+var anArray: [Any] = [59]
+anArray.append(3.33)
+anArray.append("orange") 
+
+TUPLES 
+
+var vegArray: [Any] = ["carrot", 3, true] 
+NOT IDEAL ^^^ 
+
+var vegetable = ("carrot", 3, true)
+func getUser() -> (name: String, age: Int) {
+    return ("Peter", 39)
+}
+
+Tuples are used to store mulitple values of different data types.  
+
 Arrayss-->  stores an ordered list value of the same type 
 var array: [String]  = []
 
