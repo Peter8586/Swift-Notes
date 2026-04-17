@@ -1,3 +1,30 @@
+Arrayss-->  stores an ordered list value of the same type 
+var array: [String]  = []
+
+when creating an array you hav to specify the type. type inference doesnt work with empty array 
+
+Array index 
+
+var train1 = ["wheat", "barley", "wheels"]
+
+edit array 
+
+train1[1] = "barley"
+
+counting in array 
+
+print(train1.count) --> will return 3 items
+append() --> to add item to end of an array 
+train1.append("")
+
+insert() --> adds to specific location
+
+remove() --> removes item 
+
+train1.remove(at: 4) 
+
+ ​These values are ordered in a sequence and must be of the same data type. ​Each array item can be accessed through its index number. ​And you can use array methods to add and delete items from an array. 
+
 What are optionals? means this variable might have a value..or might be nil (nothing) 
 Ex: 
 var username: String? = "Joe" String? --> could be a string or could be nil
