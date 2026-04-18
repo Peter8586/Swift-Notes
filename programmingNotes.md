@@ -1,3 +1,31 @@
+Dictionaries// 
+Create and Store 
+Keys in dictioanries are used to look up associated values. 
+
+Bsic Structure 
+var dictionaryName: [KeyType: ValueType]
+var studentGrades: [String: Int]
+String = key (student name)
+Int = value (grade)
+Empty Dictionary 
+var scores: [String: Int] = [:]
+Optional Binding 
+if let score = scores["Peter"] {
+    print(score)
+}
+Adding Values 
+scores["Mike"] = 88
+
+to add to dictionary 
+
+travelMiles["Daryl"] = 700
+retrieve from dictionary 
+if let tracellermiles = travelMiles["Peter"]
+how to remove an item if let deletedItem = trabvelMiles.removeValus()
+
+
+
+
 Using different types with arrays
 
 you can create a new array by adding to arrays of the same type 
