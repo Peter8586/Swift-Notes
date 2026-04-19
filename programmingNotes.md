@@ -1,3 +1,28 @@
+Every Function follows this pattern: Input -> Process -> Output 
+
+
+Functions and closures 
+func functionName(){
+}
+//call function 
+functionName()
+
+Functions are blocks of code that can be executed from other pieces of code.
+
+Each function performs a specific task.
+
+Functions allow you to reuse code.
+
+ Each function in Swift has a type: 
+
+Optional parameter types:
+These parameters allow you to pass one or more values into the function when called.
+ parameters can have the default values 
+Optional return type:
+Allows the function to return one or more values back to the caller.
+
+
+
 Dictionaries// 
 Create and Store 
 Keys in dictioanries are used to look up associated values. 
