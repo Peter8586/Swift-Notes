@@ -1,3 +1,28 @@
+Closures are self-contained blocks of functionality that can be passed around and used in your code
+
+Closures can be stored in constants and variables
+
+Functions are actually special cases of closures
+
+Closure expressions are written in lightweight syntax
+
+Closures can capture values from their surrounding context
+
+
+
+Closures - a piece of code that can be soreted ina variable 
+
+{(argument list) -> Return type in 
+execute some code 
+
+]
+
+myclosure = {() -> () 
+execute code 
+} 
+
+
+
 Every Function follows this pattern: Input -> Process -> Output 
 
 
