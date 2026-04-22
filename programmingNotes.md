@@ -1,3 +1,20 @@
+
+
+Methods - Cannot alter struct property values 
+
+Mutating Methods - Explicitly states that the method will alter a property.
+
+
+Structures - properties -> methods -> Initializers 
+
+name: 
+category: 
+price: 
+
+
+
+
+
 Closures are self-contained blocks of functionality that can be passed around and used in your code
 
 Closures can be stored in constants and variables
