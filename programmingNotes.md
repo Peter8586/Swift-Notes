@@ -1,3 +1,15 @@
+Classes - Reference Type shares a copy versus Structure value type creates own copy 
+
+class reads and writes on the same data as structure 
+
+reference types and Value types 
+
+value - stores a copy of it data 
+
+When a value type, like a struct, is copied, you will have unique copies of the original and the new instance. When a reference type is copied, like a class, you will have one instance of the class that has two references to it.
+
+variables and contants stored inside the class itself are called stored properties. 
+
 
 
 Methods - Cannot alter struct property values 
