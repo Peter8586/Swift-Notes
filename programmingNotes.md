@@ -1,3 +1,43 @@
+
+Stored and Computed properties: 
+Computed property calculates and retursn a value 
+
+
+class Rectangle {
+    let width: Int
+    let height: Int
+    var area: Int {
+        width * height
+    }
+    var perimeter: Int {
+        width * 2 + height * 2
+    }
+    init(width: Int, height: Int) {
+        self.width = width
+        self.height = height
+    }
+}
+
+
+
+
+Structs are value types unlike classes which are reference type 
+
+value type stores a copy of its data type: 
+
+
+
+
+
+when creating a class you must initialize a memberwise intializer or the compiler will notify an error. 
+class "" {
+init(){
+self."" ="" 
+ 
+ }
+}
+
+
 Classes - Reference Type shares a copy versus Structure value type creates own copy 
 
 class reads and writes on the same data as structure 
